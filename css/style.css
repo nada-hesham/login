@@ -1,0 +1,91 @@
+body{
+    background-color: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+}
+.contain-box{
+    text-align: center;
+    margin: 30px auto;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+
+}
+.contain-box h1{
+    color: #17a2b8;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+.contain-box input{
+
+    background-color: transparent !important;
+    color: #fff !important;
+    border: 1px solid #ced4da;
+
+}
+.contain-box input::placeholder{
+    color:#ced4da;
+}
+
+.contain-box input:focus{
+    border-color: #80bdff ;
+    outline: 0;
+    box-shadow: 0 0 0 0 transparent !important;
+  
+
+}
+.contain-box .hover{
+    width: 750px;
+    background-color: transparent;
+    transition: 0.5s background-color , 0.5s color;
+    border: 1px solid #17a2b8;
+    border-radius: 8px;
+}
+.contain-box .hover:hover{
+    background-color: #17a2b8 ;
+color:white;
+  
+}
+.contain-box .hover a{
+    text-decoration: none;
+    color:#17a2b8;
+    transition: 1s color;
+}
+.contain-box  .hover:hover a{
+    color:white;
+}
+.contain-box .sign{
+    font-size: 16px;
+    font-weight: 400px;
+    position: relative;
+}
+.contain-box .sign a::after{
+    content: "";
+  height: 1px;
+  width: 50px;
+  position: absolute;
+  background-color: white;
+  opacity: 0;
+  top:60%;
+  left:420px;
+  transition: 1s opacity;
+}
+.contain-box .sign a:hover::after{
+    opacity: 1;
+}
+
+.nav-color{
+    background-color: #24353f !important;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    font-family: 400;
+}
+
+.welcome {
+    width: 75%;
+    position: absolute;
+   left:50px;
+   right: 50px;
+   top:300px;
+}
+
+
